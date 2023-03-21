@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crop Insurance Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with company logo and navigation bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="logo.png" alt="Crop Insurance Company">
+    </header>
+    
+    <!-- Banner image with tagline -->
+    <section class="banner">
+        <div class="banner-text">
+            <h1>Protect Your Crops with Us</h1>
+            <p>Get the peace of mind you deserve with our crop insurance solutions.</p>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </section>
+    
+    <!-- Section on the importance of crop insurance -->
+    <section class="importance">
+        <h2>The Importance of Crop Insurance</h2>
+        <p>Explain the importance of crop insurance here.</p>
+    </section>
+    
+    <!-- Section on how your solution works -->
+    <section class="how-it-works">
+        <h2>How Our Solution Works</h2>
+        <p>Explain how your crop insurance solution works here.</p>
+    </section>
+    
+    <!-- Call to action button to start the insurance process -->
+    <section class="cta">
+        <h2>Ready to Protect Your Crops?</h2>
+        <button class="cta-button">Get Started</button>
+    </section>
+    
+    <!-- Insurance Application Form -->
+    <section class="form">
+        <h2>Get a Quote Today</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="crop-type">Crop Type:</label>
+            <input type="text" id="crop-type" name="crop-type" required>
+            <label for="acres">Number of Acres:</label>
+            <input type="number" id="acres" name="acres" required>
+            <label for="insurance-plan">Insurance Plan:</label>
+            <select id="insurance-plan" name="insurance-plan" required>
+                <option value="">--Select Plan--</option>
+                <option value="basic">Basic</option>
+                <option value="premium">Premium</option>
+            </select>
+            <input type="file" id="documents" name="documents" accept=".pdf,.doc,.docx">
+            <button type="submit" class="cta-button">Submit</button>
+        </form>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

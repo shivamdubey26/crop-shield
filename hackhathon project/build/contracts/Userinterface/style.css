@@ -1,0 +1,155 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #1E90FF;
+}
+
+/* Banner styles */
+.banner {
+  background-image: url('PUT#');
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tagline {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #333;
+}
+
+/* Importance section styles */
+.importance-section {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.importance-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.importance-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* How it works section styles */
+.how-it-works-section {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.how-it-works-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.how-it-works-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Call to action styles */
+.call-to-action {
+  background-color: #1E90FF;
+  text-align: center;
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+.call-to-action h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.call-to-action button {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  transition: background-color 0.3s ease;
+}
+
+.call-to-action button:hover {
+  background-color: #fff;
+  color: #1E90FF;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
